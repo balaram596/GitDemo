@@ -1,37 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polls</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Active Polls</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
 
-<h1>Active Polls</h1>
+    <div class="container py-5">
 
-<div class="poll-grid">
+        <h1 class="text-center mb-5">Active Polls</h1>
 
-    <div class="card">
-        <h3>President Election</h3>
-        <p>Status: Active</p>
-        <p>Start: June 1</p>
-        <p>End: June 10</p>
-        <a href="vote.html" class="btn">Vote Now</a>
+        <div class="row g-4">
+
+            <!-- President Election -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow h-100">
+
+                    <div class="card-header bg-primary text-white">
+                        President Election
+                    </div>
+
+                    <div class="card-body">
+                        <p>
+                            <strong>Status:</strong>
+                            <span class="badge bg-success">Active</span>
+                        </p>
+
+                        <p><strong>Start:</strong> June 1</p>
+                        <p><strong>End:</strong> June 10</p>
+                    </div>
+
+                    <div class="card-footer text-center">
+                        <a href="vote.html" class="btn btn-primary">
+                            Vote Now
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Secretary Election -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow h-100">
+
+                    <div class="card-header bg-info text-white">
+                        Secretary Election
+                    </div>
+
+                    <div class="card-body">
+                        <p>
+                            <strong>Status:</strong>
+                            <span class="badge bg-success">Active</span>
+                        </p>
+
+                        <p><strong>Start:</strong> June 1</p>
+                        <p><strong>End:</strong> June 10</p>
+                    </div>
+
+                    <div class="card-footer text-center">
+                        <a href="vote.html" class="btn btn-info text-white">
+                            Vote Now
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Treasurer Election -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow h-100">
+
+                    <div class="card-header bg-secondary text-white">
+                        Treasurer Election
+                    </div>
+
+                    <div class="card-body">
+                        <p>
+                            <strong>Status:</strong>
+                            <span class="badge bg-danger">Closed</span>
+                        </p>
+
+                        <p>Voting has ended for this election.</p>
+                    </div>
+
+                    <div class="card-footer text-center">
+                        <button class="btn btn-secondary" disabled>
+                            Voting Closed
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="card">
-        <h3>Secretary Election</h3>
-        <p>Status: Active</p>
-        <a href="vote.html" class="btn">Vote Now</a>
-    </div>
-
-    <div class="card">
-        <h3>Treasurer Election</h3>
-        <p>Status: Closed</p>
-    </div>
-
-</div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

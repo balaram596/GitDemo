@@ -1,36 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Candidates</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Candidate List</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
 
-<h1>Candidate List</h1>
+    <div class="container py-5">
 
-<div class="candidate-grid">
+        <h1 class="text-center mb-5">Candidate List</h1>
 
-    <div class="card">
-        <img src="https://via.placeholder.com/150" alt="candidate">
-        <h3>Ramesh Kumar</h3>
-        <p>Position: President</p>
-        <p>5 Years Experience</p>
-        <p>Focused on society development.</p>
-        <p>Contact: 9876543210</p>
+        <div class="row g-4">
+
+            <!-- Candidate 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow h-100">
+
+                    <img src="https://via.placeholder.com/300x250"
+                         class="card-img-top"
+                         alt="Ramesh Kumar">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Ramesh Kumar</h4>
+
+                        <p class="card-text">
+                            <strong>Position:</strong> President
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Experience:</strong> 5 Years
+                        </p>
+
+                        <p class="card-text">
+                            Focused on society development and improving community facilities.
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Contact:</strong> 9876543210
+                        </p>
+                    </div>
+
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">
+                            View Profile
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Candidate 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow h-100">
+
+                    <img src="https://via.placeholder.com/300x250"
+                         class="card-img-top"
+                         alt="Suresh Rao">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Suresh Rao</h4>
+
+                        <p class="card-text">
+                            <strong>Position:</strong> Secretary
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Experience:</strong> 3 Years
+                        </p>
+
+                        <p class="card-text">
+                            Dedicated to improving security management and resident services.
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Contact:</strong> 9876543211
+                        </p>
+                    </div>
+
+                    <div class="card-footer text-center">
+                        <button class="btn btn-success">
+                            View Profile
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="card">
-        <img src="https://via.placeholder.com/150" alt="candidate">
-        <h3>Suresh Rao</h3>
-        <p>Position: Secretary</p>
-        <p>3 Years Experience</p>
-        <p>Better security management.</p>
-        <p>Contact: 9876543211</p>
-    </div>
-
-</div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

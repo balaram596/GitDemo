@@ -1,40 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Election Results</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
 
-<h1>Election Results</h1>
+    <div class="container py-5">
 
-<table>
-    <tr>
-        <th>Candidate</th>
-        <th>Votes</th>
-        <th>Percentage</th>
-    </tr>
+        <h1 class="text-center mb-4">Election Results</h1>
 
-    <tr>
-        <td>Ramesh Kumar</td>
-        <td>120</td>
-        <td>60%</td>
-    </tr>
+        <!-- Results Table -->
+        <div class="card shadow mb-4">
+            <div class="card-header bg-primary text-white">
+                Voting Summary
+            </div>
 
-    <tr>
-        <td>Suresh Rao</td>
-        <td>80</td>
-        <td>40%</td>
-    </tr>
-</table>
+            <div class="card-body">
 
-<h2>Winner: Ramesh Kumar</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered text-center">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Candidate</th>
+                                <th>Votes</th>
+                                <th>Percentage</th>
+                            </tr>
+                        </thead>
 
-<div class="progress">
-    <div class="progress-bar" style="width:60%">60%</div>
-</div>
+                        <tbody>
+                            <tr>
+                                <td>Ramesh Kumar</td>
+                                <td>120</td>
+                                <td>60%</td>
+                            </tr>
+
+                            <tr>
+                                <td>Suresh Rao</td>
+                                <td>80</td>
+                                <td>40%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Winner Section -->
+        <div class="alert alert-success text-center shadow">
+            <h3 class="mb-0">
+                🏆 Winner: Ramesh Kumar
+            </h3>
+        </div>
+
+        <!-- Vote Percentage Progress Bars -->
+        <div class="card shadow mt-4">
+            <div class="card-header bg-success text-white">
+                Vote Distribution
+            </div>
+
+            <div class="card-body">
+
+                <h6>Ramesh Kumar - 60%</h6>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-success"
+                         role="progressbar"
+                         style="width: 60%">
+                        60%
+                    </div>
+                </div>
+
+                <h6>Suresh Rao - 40%</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-info"
+                         role="progressbar"
+                         style="width: 40%">
+                        40%
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

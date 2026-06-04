@@ -1,45 +1,239 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>User Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
 
-<h1>User Dashboard</h1>
-<p>Welcome Resident</p>
+    <div class="container py-4">
 
-<div class="dashboard-grid">
-    <div class="card">Active Surveys</div>
-    <div class="card">Active Polls</div>
-    <div class="card">Candidates</div>
-    <div class="card">Results</div>
-</div>
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h1>User Dashboard</h1>
+            <p class="lead">Welcome Resident</p>
+        </div>
 
-<h2>Recent Announcements</h2>
-<ul>
-    <li>Election starts on June 15</li>
-    <li>Survey submission closes tomorrow</li>
-</ul>
+        <!-- Dashboard Cards -->
+        <div class="row g-4 mb-5">
 
-<h2>Election Timeline</h2>
+            <div class="col-md-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">📋 Active Surveys</h5>
+                        <p class="card-text">Participate in ongoing surveys.</p>
+                    </div>
+                </div>
+            </div>
 
-<table>
-    <tr>
-        <th>Event</th>
-        <th>Date</th>
-    </tr>
-    <tr>
-        <td>Nominations</td>
-        <td>June 10</td>
-    </tr>
-    <tr>
-        <td>Voting</td>
-        <td>June 15</td>
-    </tr>
-</table>
+            <div class="col-md-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">🗳 Active Polls</h5>
+                        <p class="card-text">Vote in society elections.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">👥 Candidates</h5>
+                        <p class="card-text">View election candidates.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">🏆 Results</h5>
+                        <p class="card-text">Check election outcomes.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Announcements -->
+        <div class="card shadow mb-4">
+            <div class="card-header bg-primary text-white">
+                Recent Announcements
+            </div>
+
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        Election starts on June 15
+                    </li>
+                    <li class="list-group-item">
+                        Survey submission closes tomorrow
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Election Timeline -->
+        <div class="card shadow">
+            <div class="card-header bg-success text-white">
+                Election Timeline
+            </div>
+
+            <div class="card-body">
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Event</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Nominations</td>
+                                <td>June 10</td>
+                            </tr>
+
+                            <tr>
+                                <td>Voting</td>
+                                <td>June 15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <div class="container py-4">
+
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h1>User Dashboard</h1>
+            <p class="lead">Welcome Resident</p>
+        </div>
+
+        <!-- Dashboard Cards -->
+        <div class="row g-4 mb-5">
+
+            <div class="col-md-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">📋 Active Surveys</h5>
+                        <p class="card-text">Participate in ongoing surveys.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">🗳 Active Polls</h5>
+                        <p class="card-text">Vote in society elections.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">👥 Candidates</h5>
+                        <p class="card-text">View election candidates.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">🏆 Results</h5>
+                        <p class="card-text">Check election outcomes.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Announcements -->
+        <div class="card shadow mb-4">
+            <div class="card-header bg-primary text-white">
+                Recent Announcements
+            </div>
+
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        Election starts on June 15
+                    </li>
+                    <li class="list-group-item">
+                        Survey submission closes tomorrow
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Election Timeline -->
+        <div class="card shadow">
+            <div class="card-header bg-success text-white">
+                Election Timeline
+            </div>
+
+            <div class="card-body">
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Event</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Nominations</td>
+                                <td>June 10</td>
+                            </tr>
+
+                            <tr>
+                                <td>Voting</td>
+                                <td>June 15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

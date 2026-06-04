@@ -1,36 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vote</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>President Election</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
 
-<h1>President Election</h1>
+    <div class="container py-5">
 
-<form class="vote-grid">
+        <h1 class="text-center mb-5">President Election</h1>
 
-    <div class="card">
-        <h3>Ramesh Kumar</h3>
-        <p>Flat No: A-101</p>
-        <p>Position: President</p>
-        <p>Improve cleanliness and security.</p>
-        <input type="radio" name="candidate">
+        <form>
+
+            <div class="row g-4">
+
+                <!-- Candidate 1 -->
+                <div class="col-md-6">
+                    <div class="card shadow h-100">
+
+                        <div class="card-header bg-primary text-white">
+                            Candidate 1
+                        </div>
+
+                        <div class="card-body">
+
+                            <h4>Ramesh Kumar</h4>
+
+                            <p>
+                                <strong>Flat No:</strong> A-101
+                            </p>
+
+                            <p>
+                                <strong>Position:</strong> President
+                            </p>
+
+                            <p>
+                                Improve cleanliness and security throughout the society.
+                            </p>
+
+                            <div class="form-check">
+                                <input class="form-check-input"
+                                       type="radio"
+                                       name="candidate"
+                                       id="candidate1"
+                                       value="Ramesh Kumar">
+
+                                <label class="form-check-label"
+                                       for="candidate1">
+                                    Select Candidate
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Candidate 2 -->
+                <div class="col-md-6">
+                    <div class="card shadow h-100">
+
+                        <div class="card-header bg-success text-white">
+                            Candidate 2
+                        </div>
+
+                        <div class="card-body">
+
+                            <h4>Suresh Rao</h4>
+
+                            <p>
+                                <strong>Flat No:</strong> B-202
+                            </p>
+
+                            <p>
+                                <strong>Position:</strong> President
+                            </p>
+
+                            <p>
+                                Focused on better maintenance facilities and resident support.
+                            </p>
+
+                            <div class="form-check">
+                                <input class="form-check-input"
+                                       type="radio"
+                                       name="candidate"
+                                       id="candidate2"
+                                       value="Suresh Rao">
+
+                                <label class="form-check-label"
+                                       for="candidate2">
+                                    Select Candidate
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Submit Vote Button -->
+            <div class="text-center mt-5">
+                <button type="submit" class="btn btn-danger btn-lg px-5">
+                    Submit Vote
+                </button>
+            </div>
+
+        </form>
+
     </div>
 
-    <div class="card">
-        <h3>Suresh Rao</h3>
-        <p>Flat No: B-202</p>
-        <p>Position: President</p>
-        <p>Better maintenance facilities.</p>
-        <input type="radio" name="candidate">
-    </div>
-
-    <button type="submit">Submit Vote</button>
-
-</form>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
