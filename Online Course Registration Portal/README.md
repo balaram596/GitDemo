@@ -91,14 +91,11 @@ SkillUp-Training-Institute/
 ├── About.html
 ├── Contact.html
 │
-├── css/
-│   └── style.css
-│
 ├── images/
-│   ├── logo.png
-│   ├── faculty1.jpg
-│   ├── faculty2.jpg
-│   └── faculty3.jpg
+│   ├── home.png
+│   ├── course.png
+│   ├── about.png
+│   └── registration.png
 │
 └── README.md
 ```
