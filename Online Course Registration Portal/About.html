@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - SkillUp Training Institute</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background-color:#f8f9fa;
+        }
+
+        .hero{
+            background:linear-gradient(rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)),
+            url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+            background-size:cover;
+            background-position:center;
+            color:white;
+            padding:80px 0;
+            text-align:center;
+        }
+
+        .faculty-card{
+            transition:0.3s;
+        }
+
+        .faculty-card:hover{
+            transform:translateY(-8px);
+            box-shadow:0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        footer{
+            background:#212529;
+            color:white;
+        }
+        .faculty-card img{
+    height:300px;
+    object-fit:cover;
+}
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="Home.html">
+            🎓 SkillUp Institute
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Courses.html">Courses</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="About.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary text-white px-3 ms-2" href="#">
+                        Login
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1>About Our Institute</h1>
+        <p>Empowering students through quality education and industry-ready skills.</p>
+    </div>
+</section>
+
+<!-- Institute History -->
+<section class="container py-5">
+    <h2 class="text-center mb-4">Institute History</h2>
+
+    <p class="text-center">
+        SkillUp Training Institute was established in 2018 with the goal of
+        providing practical and industry-oriented training to students and
+        professionals. Over the years, we have trained thousands of learners
+        in various technologies such as Web Development, Java, Python,
+        Data Science, Artificial Intelligence, and Cloud Computing.
+    </p>
+</section>
+
+<!-- Vision and Mission -->
+<section class="container py-4">
+    <div class="row">
+
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow">
+                <div class="card-body">
+                    <h3 class="text-primary">Vision</h3>
+                    <p>
+                        To become a leading training institute that bridges
+                        the gap between academic learning and industry
+                        requirements through innovative and practical education.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow">
+                <div class="card-body">
+                    <h3 class="text-success">Mission</h3>
+                    <p>
+                        To provide high-quality technical training,
+                        certification programs, and placement assistance
+                        that help students build successful careers.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Faculty Section -->
+<section class="container py-5">
+    <h2 class="text-center mb-5">Our Faculty</h2>
+
+    <div class="row g-4">
+
+        <!-- Faculty 1 -->
+        <div class="col-md-4">
+            <div class="card faculty-card h-100">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+     class="card-img-top"
+     alt="Faculty">        
+
+                <div class="card-body text-center">
+                    <h5>Dr. Rajesh Kumar</h5>
+                    <p class="text-muted">Head of Data Science</p>
+                    <p>
+                        12+ years of experience in Data Analytics,
+                        Machine Learning, and AI.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Faculty 2 -->
+        <div class="col-md-4">
+            <div class="card faculty-card h-100">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/6997/6997662.png"
+     class="card-img-top"
+     alt="Faculty">
+                
+
+                <div class="card-body text-center">
+                    <h5>Priya Sharma</h5>
+                    <p class="text-muted">Senior Java Trainer</p>
+                    <p>
+                        Expert in Core Java, Spring Boot,
+                        Hibernate, and Enterprise Applications.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Faculty 3 -->
+        <div class="col-md-4">
+            <div class="card faculty-card h-100">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png"
+     class="card-img-top"
+     alt="Faculty">
+
+                <div class="card-body text-center">
+                    <h5>Arun Reddy</h5>
+                    <p class="text-muted">Full Stack Developer Trainer</p>
+                    <p>
+                        Specialized in HTML, CSS, JavaScript,
+                        React, Node.js, and Web Technologies.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 mt-4">
+    <div class="container text-center">
+
+        <p><strong>SkillUp Training Institute</strong></p>
+        <p>Hyderabad, Telangana</p>
+        <p>Email: info@skillup.com | Phone: +91 9876543210</p>
+
+        <p class="mb-0">
+            © 2026 SkillUp Training Institute. All Rights Reserved.
+        </p>
+
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

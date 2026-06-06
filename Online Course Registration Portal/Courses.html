@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Courses - SkillUp Training Institute</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background-color:#f8f9fa;
+        }
+
+        .course-card{
+            transition:0.3s;
+        }
+
+        .course-card:hover{
+            transform:translateY(-8px);
+            box-shadow:0 6px 15px rgba(0,0,0,0.15);
+        }
+
+        .page-header{
+            background:linear-gradient(to right,#0d6efd,#0dcaf0);
+            color:white;
+            padding:60px 0;
+            text-align:center;
+        }
+
+        footer{
+            background:#212529;
+            color:white;
+            padding:20px 0;
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="Home.html">
+            🎓 SkillUp Institute
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="Courses.html">Courses</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+    <a class="nav-link" href="Register.html">
+        Register
+    </a>
+</li>
+
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary text-white px-3 ms-2" href="#">
+                        Login
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+<!-- Header -->
+<section class="page-header">
+    <div class="container">
+        <h1>Our Courses</h1>
+        <p>Choose the course that matches your career goals.</p>
+    </div>
+</section>
+
+<!-- Courses Section -->
+<section class="py-5">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- Course 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card course-card h-100">
+
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                         class="card-img-top"
+                         alt="Web Development">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Web Development</h5>
+
+                        <p class="card-text">
+                            Learn HTML, CSS, JavaScript, Bootstrap and modern web technologies.
+                        </p>
+
+                        <p><strong>Duration:</strong> 6 Months</p>
+                        <p><strong>Fee:</strong> ₹25,000</p>
+                        <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#courseModal">
+    View Details
+</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card course-card h-100">
+
+                    <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935"
+                         class="card-img-top"
+                         alt="Python">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Python Programming</h5>
+
+                        <p class="card-text">
+                            Master Python fundamentals, OOP, libraries and projects.
+                        </p>
+
+                        <p><strong>Duration:</strong> 4 Months</p>
+                        <p><strong>Fee:</strong> ₹18,000</p>
+
+                        <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#courseModal">
+    View Details
+</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card course-card h-100">
+
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+                         class="card-img-top"
+                         alt="Data Science">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Data Science</h5>
+
+                        <p class="card-text">
+                            Learn data analysis, visualization, statistics and predictive models.
+                        </p>
+
+                        <p><strong>Duration:</strong> 5 Months</p>
+                        <p><strong>Fee:</strong> ₹30,000</p>
+
+                        <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#courseModal">
+    View Details
+</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card course-card h-100">
+
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995"
+                         class="card-img-top"
+                         alt="AI & ML">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">AI & Machine Learning</h5>
+
+                        <p class="card-text">
+                            Explore artificial intelligence, machine learning and deep learning.
+                        </p>
+
+                        <p><strong>Duration:</strong> 6 Months</p>
+                        <p><strong>Fee:</strong> ₹35,000</p>
+
+                        <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#courseModal">
+    View Details
+</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card course-card h-100">
+
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+                         class="card-img-top"
+                         alt="Java">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Java Programming</h5>
+
+                        <p class="card-text">
+                            Learn Core Java, JDBC, Collections, Multithreading and projects.
+                        </p>
+
+                        <p><strong>Duration:</strong> 4 Months</p>
+                        <p><strong>Fee:</strong> ₹20,000</p>
+
+                        <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#courseModal">
+    View Details
+</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 6 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card course-card h-100">
+
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+                         class="card-img-top"
+                         alt="Cloud Computing">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Cloud Computing</h5>
+
+                        <p class="card-text">
+                            Learn AWS, Azure, DevOps and cloud deployment concepts.
+                        </p>
+
+                        <p><strong>Duration:</strong> 3 Months</p>
+                        <p><strong>Fee:</strong> ₹22,000</p>
+
+                       <button class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#courseModal">
+    View Details
+</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<footer class="py-4 mt-4">
+    <div class="container text-center">
+
+        <p><strong>SkillUp Training Institute</strong></p>
+        <p>Hyderabad, Telangana</p>
+        <p>Email: info@skillup.com | Phone: +91 9876543210</p>
+
+        <p class="mb-0">
+            © 2026 SkillUp Training Institute. All Rights Reserved.
+        </p>
+
+    </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Course Modal -->
+<div class="modal fade"
+     id="courseModal"
+     tabindex="-1">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    Course Details
+                </h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+                <p>
+                    This course includes:
+                </p>
+
+                <ul>
+                    <li>Live Instructor Sessions</li>
+                    <li>Projects & Assignments</li>
+                    <li>Certificate</li>
+                    <li>Placement Support</li>
+                    <li>Interview Preparation</li>
+                </ul>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <a href="Register.html"
+                   class="btn btn-success">
+                    Register Now
+                </a>
+
+                <button class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                    Close
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
