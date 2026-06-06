@@ -110,7 +110,7 @@ SkillUp-Training-Institute/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/balaram596/GitDemo.git
 ```
 
 2. Open the project folder.
@@ -150,7 +150,7 @@ inside a `screenshots` folder and update this section.
 
 **Balaram Goud**
 
-* GitHub: https://github.com/your-github-username
+* GitHub: https://github.com/balaram596
 
 ---
 
