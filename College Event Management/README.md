@@ -98,31 +98,31 @@ The project focuses on creating a modern, user-friendly, and responsive interfac
 
 ### Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](images/home1.png)
 
 ### Events Page
 
-![Events Page](screenshots/events.png)
+![Events Page](images/events.png)
 
 ### Registration Page
 
-![Registration Page](screenshots/registration.png)
+![Registration Page](images/registration.png)
 
 ### Schedule Page
 
-![Schedule Page](screenshots/schedule.png)
+![Schedule Page](images/schedule.png)
 
 ### Gallery Page
 
-![Gallery Page](screenshots/gallery.png)
+![Gallery Page](images/gallery.png)
 
 ### FAQ Page
 
-![FAQ Page](screenshots/faq.png)
+![FAQ Page](images/faq.png)
 
 ### Contact Page
 
-![Contact Page](screenshots/contact.png)
+![Contact Page](images/contact.png)
 
 > Create a `screenshots` folder inside your repository and place all page screenshots there.
 
