@@ -158,15 +158,7 @@ College-Event-Management-Portal/
 
 ---
 
-## GitHub Repository Link
-
-Replace the link below with your repository URL:
-
-```text
-https://github.com/balaram596/GitDemo.git
-```
-
-Example:
+## GitHub Repository Link:
 
 ```text
 https://github.com/balaram596/GitDemo.git
