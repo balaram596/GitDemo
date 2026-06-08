@@ -141,10 +141,7 @@ College-Event-Management-Portal/
 ├── faq.html
 ├── contact.html
 │
-├── css/
-│   └── style.css
-│
-├── screenshots/
+├── images/
 │   ├── home.png
 │   ├── events.png
 │   ├── registration.png
