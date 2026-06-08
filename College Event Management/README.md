@@ -98,7 +98,7 @@ The project focuses on creating a modern, user-friendly, and responsive interfac
 
 ### Home Page
 
-![Home Page](images/home1.png)
+![Home Page](images/home-1.png)
 
 ### Events Page
 
