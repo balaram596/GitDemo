@@ -98,13 +98,9 @@ Portfolio/
 
 ### Home Page
 
-Insert screenshot here:
-
 ![Home Page](images/home.png)
 
 ### About Me
-
-Insert screenshot here:
 
 ![About Page](images/about.png)
 
