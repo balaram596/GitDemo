@@ -141,10 +141,7 @@ College-Event-Management-Portal/
 ├── faq.html
 ├── contact.html
 │
-├── css/
-│   └── style.css
-│
-├── screenshots/
+├── images/
 │   ├── home.png
 │   ├── events.png
 │   ├── registration.png
@@ -158,15 +155,7 @@ College-Event-Management-Portal/
 
 ---
 
-## GitHub Repository Link
-
-Replace the link below with your repository URL:
-
-```text
-https://github.com/balaram596/GitDemo.git
-```
-
-Example:
+## GitHub Repository Link:
 
 ```text
 https://github.com/balaram596/GitDemo.git
